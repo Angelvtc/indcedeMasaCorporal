@@ -1,0 +1,1 @@
+índice de masa corporal es una aplicación de consola
