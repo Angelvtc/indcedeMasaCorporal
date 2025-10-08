@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35506.116 d17.12
+VisualStudioVersion = 17.12.35506.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndiceDeMasaCorporal.Console", "IndiceDeMasaCorporal.Console\IndiceDeMasaCorporal.Console.csproj", "{61B4D47F-DA16-4B71-AC0E-3C1E884113DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "imc.Gui", "imc.Gui\imc.Gui.csproj", "{8FA45F36-02DB-4EC7-8A7F-3F026264F23D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,11 @@ Global
 		{61B4D47F-DA16-4B71-AC0E-3C1E884113DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61B4D47F-DA16-4B71-AC0E-3C1E884113DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61B4D47F-DA16-4B71-AC0E-3C1E884113DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FA45F36-02DB-4EC7-8A7F-3F026264F23D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FA45F36-02DB-4EC7-8A7F-3F026264F23D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FA45F36-02DB-4EC7-8A7F-3F026264F23D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8FA45F36-02DB-4EC7-8A7F-3F026264F23D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FA45F36-02DB-4EC7-8A7F-3F026264F23D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

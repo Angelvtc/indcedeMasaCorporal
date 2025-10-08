@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="imc.Gui.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+Margin="24"
+Spacing="24">
+
+            <Border
+    Stroke="LightGray"
+    Padding="16">
+                <VerticalStackLayout
+        Spacing="8">
+
+                    <Label
+            Text="peso en kilogramos:"
+            FontSize="Small"/>
+
+                    <Entry
+            x:Name="PesoEntry"/>
+
+                    <Label
+            Text="estatura en metros:"
+            FontSize="Small"/>
+
+                    <Entry
+            FontSize="Small"
+            x:Name="EstaturaEntry"/>
+
+
+                </VerticalStackLayout>
+            </Border>
+            <HorizontalStackLayout
+    HorizontalOptions="Center"
+    Spacing="24">
+                <Button
+        Text="Calular"
+        FontSize="Small"
+        Clicked="OnCalcularButtonClicked"/>
+                <Button
+        Text="Limpiar"
+        FontSize="Small"
+        Clicked="OnLimpiarButtonClicked"/>
+            </HorizontalStackLayout>
+            <Border
+    Stroke="LightGray"
+    Padding="16">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius ="10"/>
+                </Border.StrokeShape>
+                <VerticalStackLayout
+        Spacing="4">
+                    <Label
+            Text="el inidce de la masa corporal es:"
+            FontSize="Small"/>
+                    <Label
+            Text="24.1234"
+            FontSize="Medium"
+            FontAttributes="Bold"
+            HorizontalOptions="Center"
+            x:Name="ImcLabel"/>
+                    <Label
+            Text="la situacion nutricional de la persona es:"/>
+                    <Label
+            Text="peso normal"
+            FontSize="Medium"
+            FontAttributes="Bold"
+            HorizontalOptions="Center"
+            x:Name="SituacionNutricionalLabel"/>
+
+
+
+                </VerticalStackLayout>
+
+            </Border>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
