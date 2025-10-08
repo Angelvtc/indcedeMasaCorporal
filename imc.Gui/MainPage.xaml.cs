@@ -11,7 +11,7 @@ namespace imc.Gui
             InitializeComponent();
             Limpiar();
         }
-
+        //metodo para calcular el imc del usuario
         private void OnCalcularButtonClicked(object sender, EventArgs e)
         {
             decimal peso = Convert.ToDecimal(PesoEntry.Text);
@@ -20,11 +20,12 @@ namespace imc.Gui
             ImcLabel.Text = imc.ToString("G6");
             SituacionNutricionalLabel.Text = DeterminaEstadoNutricional(imc);
         }
-
+         
         private void OnLimpiarButtonClicked(object sender, EventArgs e)
         {
             Limpiar();
         }
+        //metodo para limpiar los datos de usuario
         private void Limpiar()
         {
             EstaturaEntry.Text = string.Empty;
@@ -38,6 +39,7 @@ namespace imc.Gui
         {
             return peso / (estatura * estatura);
         }
+
 
         private string DeterminaEstadoNutricional(decimal imc)
         {
