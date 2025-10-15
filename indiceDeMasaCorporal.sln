@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndiceDeMasaCorporal.Consol
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "imc.Gui", "imc.Gui\imc.Gui.csproj", "{8FA45F36-02DB-4EC7-8A7F-3F026264F23D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "imc.models", "imc.models\imc.models.csproj", "{8EA5037E-D196-48AC-9AAC-86835E5CF870}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,6 +24,10 @@ Global
 		{8FA45F36-02DB-4EC7-8A7F-3F026264F23D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{8FA45F36-02DB-4EC7-8A7F-3F026264F23D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FA45F36-02DB-4EC7-8A7F-3F026264F23D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EA5037E-D196-48AC-9AAC-86835E5CF870}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EA5037E-D196-48AC-9AAC-86835E5CF870}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EA5037E-D196-48AC-9AAC-86835E5CF870}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EA5037E-D196-48AC-9AAC-86835E5CF870}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
